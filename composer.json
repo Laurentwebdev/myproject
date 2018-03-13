@@ -1,0 +1,19 @@
+{
+    "name": "etudiant/pe-pe",
+    "description": "cool stuff",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Larry",
+            "email": "lawrencedampierre@gmail.com"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Service\\": "Services/"
+    	}
+    }
+}
